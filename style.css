@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.box {
+  margin: 10px auto;
+  width: 100px;
+  height: 100px;
+  background-color: pink; }
+
+.box1 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.box2 {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+
+.box3 {
+  position: relative; }
+
+.abs {
+  top: 5px;
+  right: 15px;
+  bottom: 5px;
+  left: 5px;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc; }
+
+.f14 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-align: center; }
+
+.container:before, .container:after {
+  content: '';
+  display: table; }
+.container:after {
+  clear: both; }
+.container h1 {
+  text-align: center;
+  text-shadow: 0px 0px #e1e1e1, 1px 1px #e1e1e1, 2px 2px #e1e1e1, 3px 3px #e1e1e1, 4px 4px #e1e1e1, 5px 5px #e1e1e1, 6px 6px #e1e1e1, 7px 7px #e1e1e1, 8px 8px #e1e1e1, 9px 9px #e1e1e1, 10px 10px #e1e1e1, 11px 11px #e1e1e1, 12px 12px #e1e1e1, 13px 13px #e1e1e1, 14px 14px #e1e1e1, 15px 15px #e1e1e1, 16px 16px #e1e1e1, 17px 17px #e1e1e1, 18px 18px #e1e1e1, 19px 19px #e1e1e1, 20px 20px #e1e1e1, 21px 21px #e1e1e1, 22px 22px #e1e1e1, 23px 23px #e1e1e1, 24px 24px #e1e1e1, 25px 25px #e1e1e1, 26px 26px #e1e1e1, 27px 27px #e1e1e1, 28px 28px #e1e1e1, 29px 29px #e1e1e1, 30px 30px #e1e1e1, 31px 31px #e1e1e1, 32px 32px #e1e1e1, 33px 33px #e1e1e1, 34px 34px #e1e1e1, 35px 35px #e1e1e1, 36px 36px #e1e1e1, 37px 37px #e1e1e1, 38px 38px #e1e1e1, 39px 39px #e1e1e1, 40px 40px #e1e1e1, 41px 41px #e1e1e1, 42px 42px #e1e1e1, 43px 43px #e1e1e1, 44px 44px #e1e1e1, 45px 45px #e1e1e1, 46px 46px #e1e1e1, 47px 47px #e1e1e1, 48px 48px #e1e1e1, 49px 49px #e1e1e1, 50px 50px #e1e1e1, 51px 51px #e1e1e1, 52px 52px #e1e1e1, 53px 53px #e1e1e1, 54px 54px #e1e1e1, 55px 55px #e1e1e1, 56px 56px #e1e1e1, 57px 57px #e1e1e1, 58px 58px #e1e1e1, 59px 59px #e1e1e1, 60px 60px #e1e1e1, 61px 61px #e1e1e1, 62px 62px #e1e1e1, 63px 63px #e1e1e1, 64px 64px #e1e1e1, 65px 65px #e1e1e1, 66px 66px #e1e1e1, 67px 67px #e1e1e1, 68px 68px #e1e1e1, 69px 69px #e1e1e1, 70px 70px #e1e1e1, 71px 71px #e1e1e1, 72px 72px #e1e1e1, 73px 73px #e1e1e1, 74px 74px #e1e1e1, 75px 75px #e1e1e1, 76px 76px #e1e1e1, 77px 77px #e1e1e1, 78px 78px #e1e1e1, 79px 79px #e1e1e1, 80px 80px #e1e1e1, 81px 81px #e1e1e1, 82px 82px #e1e1e1, 83px 83px #e1e1e1, 84px 84px #e1e1e1, 85px 85px #e1e1e1, 86px 86px #e1e1e1, 87px 87px #e1e1e1, 88px 88px #e1e1e1, 89px 89px #e1e1e1, 90px 90px #e1e1e1, 91px 91px #e1e1e1, 92px 92px #e1e1e1, 93px 93px #e1e1e1, 94px 94px #e1e1e1, 95px 95px #e1e1e1, 96px 96px #e1e1e1, 97px 97px #e1e1e1, 98px 98px #e1e1e1, 99px 99px #e1e1e1, 100px 100px #e1e1e1; }
+
+.foo {
+  opacity: 0;
+  text-align: center; }
+  .active .foo {
+    animation: fadeIn 0.3s 1s forwards; }
+
+.aside {
+  width: 100%;
+  height: 100px;
+  background-color: #ccc; }
+  @media only screen and (min-width: 768px) {
+    .aside {
+      width: 30%;
+      float: right; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */
